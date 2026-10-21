@@ -1,0 +1,143 @@
+@import url("style.css");
+/* Artikelns innehåll ska vara lätt att läsa */
+
+#artikel {
+  max-width: 850px;
+
+  margin: 60px auto;
+
+  padding: 40px;
+
+  background-color: #fffaf2;
+
+  border-radius: 12px;
+
+  line-height: 1.8;
+
+  color: #304c3b;
+}
+/* Sidfoten ska ligga längst ner på artikelsidan */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#artikel {
+  flex: 1;
+}
+/* Håll artikelns sidfot längst ner och fördela innehållet */
+
+.sidfot {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+/* Rubrikerna i artikeln följer BUONITOs färger */
+
+#artikel h1,
+#artikel h2,
+#artikel h3 {
+  color: #304c3b;
+
+  line-height: 1.3;
+
+  margin-bottom: 16px;
+}
+
+#artikel p {
+  margin-bottom: 20px;
+}
+
+.sidfot-nyhetsbrev {
+  text-align: right;
+}
+
+.sidfot-nyhetsbrev a {
+  color: #234b35;
+
+  font-family: Georgia, serif;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+/* Artikelns innehåll ska vara lätt att läsa */
+
+#artikel {
+  max-width: 850px;
+
+  margin: 60px auto;
+
+  padding: 40px;
+
+  background-color: #fffaf2;
+
+  border-radius: 12px;
+
+  line-height: 1.8;
+
+  color: #304c3b;
+}
+
+/* Sidfoten ska ligga längst ner på artikelsidan */
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+#artikel {
+  flex: 1;
+
+  /* Håll artikelns sidfot längst ner och fördela innehållet */
+
+  .sidfot {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    justify-content: space-between;
+
+    align-items: center;
+  }
+
+  /* Rubrikerna i artikeln följer BUONITOs färger */
+
+  #artikel h1,
+  #artikel h2,
+  #artikel h3 {
+    color: #304c3b;
+
+    line-height: 1.3;
+
+    margin-bottom: 16px;
+  }
+
+  #artikel p {
+    margin-bottom: 20px;
+  }
+
+  /* Bilderna anpassas till artikelns bredd */
+
+  #artikel img {
+    max-width: 100%;
+
+    height: auto;
+
+    display: block;
+
+    margin: 24px auto;
+
+    border-radius: 10px;
+  }
+}

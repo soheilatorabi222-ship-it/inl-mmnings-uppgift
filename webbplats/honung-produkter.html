@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honung & saffran – BUONITO</title>
+    <style>
+      body {
+        background: white;
+
+        font-family: Arial, sans-serif;
+
+        color: #294b38;
+
+        margin: 0;
+      }
+      .honung-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        max-width: 1050px;
+        margin: 35px auto;
+        padding: 15px;
+      }
+      .honung-kort {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+      }
+      .bildplats {
+        background: #f5f5f5;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .honung-kort button {
+        display: block;
+        margin: 15px auto;
+        padding: 12px;
+        background: #294b38;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      @media (max-width: 700px) {
+        .honung-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Honung & saffran</h1>
+    <div class="honung-grid">
+      <article class="honung-kort">
+        <div class="bildplats">Produktbild 1</div>
+        <h2>Italiensk honung</h2>
+        <p>Naturlig italiensk honung</p>
+        <strong>Pris: -- kr</strong>
+        <button type="button">Lägg i varukorg</button>
+      </article>
+      <article class="honung-kort">
+        <div class="bildplats">Produktbild 2</div>
+        <h2>Akaciahonung</h2>
+        <p>Mild honung från Italien</p>
+        <strong>Pris: -- kr</strong>
+        <button type="button">Lägg i varukorg</button>
+      </article>
+      <article class="honung-kort">
+        <div class="bildplats">Produktbild 3</div>
+        <h2>Italienskt saffran</h2>
+        <p>Saffran med fyllig smak</p>
+        <strong>Pris: -- kr</strong>
+        <button type="button">Lägg i varukorg</button>
+      </article>
+      <article class="honung-kort">
+        <div class="bildplats">Produktbild 4</div>
+        <h2>Blomsterhonung</h2>
+        <p>Honung med blommig smak</p>
+        <strong>Pris: -- kr</strong>
+        <button type="button">Lägg i varukorg</button>
+      </article>
+    </div>
+  </body>
+</html>

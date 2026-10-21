@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BUONITO – Italiensk delikatesser och smak</title>
+    <meta
+      name="description"
+      content="Upptäck BUONITO – italienska delikatesser med noggrant utvalda oljor, pasta och smaker från Italien. Inspiration och kvalitet för din matupplevelse."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigationen innehåller länkar till webbplatsens olika delar -->
+    <nav>
+      <a href="index.html" class="logo"
+        ><img src="image/logotyp1.jpg" alt="buonito logotyp"
+      /></a>
+      <a href="index.html">Hem</a>
+      <a href="kategorier.html">Kategorier</a>
+      <a href="radgivning.html">Rådgivning</a>
+      <a href="service.html">Service</a>
+      <a href="kontakt.html"> Kontakt</a>
+
+      <div class="nav-ikoner">
+        <button type="button" aria-label="Sök">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <circle cx="10" cy="10" r="7"></circle>
+            <path d="M15 15 L21 21"></path>
+          </svg>
+        </button>
+        <span class="ikon-linje"></span>
+        <button type="button" class="varukorg" aria-label="Varukorg">
+          <svg
+            width="26"
+            height="26"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+          >
+            <path d="M2 3 H4 L7 16 H19 L22 7 H5"></path>
+            <circle cx="9" cy="20" r="1"></circle>
+            <circle cx="18" cy="20" r="1"></circle>
+          </svg>
+          <span class="antal">0</span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-text">
+        <p class="hero-label">
+          <span class="italian-flagga"></span> ITALIENSKA DELIKATESSER
+        </p>
+        <h1>Upptäck<br />italianska smaker</h1>
+        <p class="hero-beskrivning">Utvalda delikatesser direkt från Italian</p>
+        <a href="butik.html" class="hero-knapp">Handla nu </a>
+      </div>
+    </section>
+
+    <section class="kategorier" id="kategorier">
+      <h2>Handla efter kategori</h2>
+      <div class="kategori-grid">
+        <a href="oljor-produkter.html" class="kategori-kort">
+          <img
+            class="card-image-1"
+            src="image/oljor.jpg"
+            alt="Flaskor med italiensk olivolja och oliver"
+          />
+          <h3>Oljor &amp; tryffel</h3>
+          <p>Exklusiva oljor och tryffelprodukter från Italien.</p>
+        </a>
+
+        <a href="notter-produkt.html" class="kategori-kort">
+          <img
+            class="card-image-2"
+            src="image/nötter.jpg"
+            alt="Skål med nötter och pistagenötter"
+          />
+          <h3>Nötter</h3>
+          <p>Pistage, mandel och andra noggrant utvalda delikatesser.</p>
+        </a>
+
+        <a href="honung-produkter.html" class="kategori-kort">
+          <img
+            class="card-image-3"
+            src="image/hungun.jpg"
+            alt="Honung som ringlar ner i en glasburk"
+          />
+          <h3>Honung &amp; saffran</h3>
+          <p>Smakrika produkter med italiensk kvalitet och tradition.</p>
+        </a>
+
+        <a href="pasta-produkter.html" class="kategori-kort">
+          <img
+            class="card-image-4"
+            src="image/pasta.jpg"
+            alt="Olika sorters italiensk pasta"
+          />
+          <h3>Pasta</h3>
+          <p>Italiensk pasta för en genuin smakupplevelse hemma.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="artiklar">
+      <div class="smakresa-ruta">
+        <h2>En smakresa genom Italian</h2>
+        <p class="smakresa-text">
+          Välkommen till Buonito! Här möts Italiens traditioner och fantastiska
+          smaker. Vi handplockar noggrant utvalda delikatesser från Italien för
+          att ge dig en äkta italiensk smakupplevelse. Varje produkt är utvald
+          med omsorg och speglar Italiens rika matkulture. Hos BUONITO handlar
+          det inte bara om mat,utan också om kvalitet,tradition och kärleken
+          till det italienska köket. Upptäck det äkta Italien hemma hos dig!
+        </p>
+      </div>
+      <h2 class="artiklar-rubrik">Läs vår artiklar</h2>
+      <div class="artikel-grid">
+        <a href="artikel.html?id=oljor" class="artikel-kort">
+          <h3>Italienska oljor med olika smaker</h3>
+          <span>Läs mer →</span>
+        </a>
+        <a href="artikel.html?id=delikatesser" class="artikel-kort">
+          <h3>Våra italienska delikatesser</h3>
+          <span>Läs mer →</span>
+        </a>
+        <a href="artikel.html?id=smaker" class="artikel-kort">
+          <h3>Smaker från Italien</h3>
+          <span>Läs mer →</span>
+        </a>
+      </div>
+    </section>
+    <!-- Formuläret låter besökaren prenumerera och visar ett tackmeddelande med JavaScript -->
+    <section class="nyhetsbrev" id="nyhetsbrev">
+      <h2>nyhetsbrev från Buonito</h2>
+      <p>
+        Få insiration, nyheter och exclusiva erbjudanden direkt till inkorg.
+      </p>
+      <form class="nyhetsbrev-form">
+        <input type="email" placeholder="Din e-postadress" required />
+        <button type="submit">Prenumerera</button>
+      </form>
+    </section>
+    <footer class="sidfot">
+      <div class="sidfot-logo">
+        <img src="image/logotyp.jpg" alt="BUONITO logotyp" />
+        <p>ITALIENSKA DELIKATESSER</p>
+      </div>
+      <div class="sidfot-social">
+        <h3>Följ oss</h3>
+        <p>Instagram . Tiktok</p>
+      </div>
+      <div class="sidfot-nyhetsbrev">
+        <a href="#nyhetsbrev">prenumerar på vårt nyhetsbrev </a>
+      </div>
+    </footer>
+
+    <script src="./script.js?v=2"></script>
+  </body>
+</html>

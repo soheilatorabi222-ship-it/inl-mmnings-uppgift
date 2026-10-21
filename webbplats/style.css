@@ -1,0 +1,621 @@
+/* Grundläggande design för BUONITO med färger och typsnitt */
+body {
+  background-color: whote;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+}
+h1 {
+  color: #0b442c;
+  font-size: 70px;
+  transform: translateY(0px);
+}
+h2 {
+  color: #795548;
+  font-size: 36px;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+img {
+  width: 350px;
+  height: auto;
+  align-self: flex-end;
+  margin-right: 80px;
+}
+nav {
+  background-color: #e5d8c5;
+  width: 100%;
+  padding: 10px 10px 10px 5px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  justify-content: center;
+}
+nav a {
+  color: #795548;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 15px;
+}
+.presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 50px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  margin-top: 80px;
+}
+.presentation-text {
+  fex: 1;
+  max-width: 550px;
+  text-align: left;
+  color: #795548;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.presentation-text h3 {
+  color: #795548;
+  font-size: 28px;
+}
+.presentation img {
+  width: 420px;
+  max-width: none;
+  height: 300px;
+  object-fit: fill;
+  margin: 0;
+
+  border-radius: 10px;
+}
+.presentation-text p {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.artiklar {
+  width: 90%;
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+  text-align: left;
+  padding: 0;
+  background: transparent;
+}
+.artiklar h2,
+.artiklar .smakresa-text {
+  text-align: left;
+  color: #234b35;
+  max-width: none;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  margin-left: 0;
+  margin-right: auto;
+  width: 100%;
+}
+.smakresa-ruta {
+  background-color: #f5f1e9;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 1100px;
+  text-align: left;
+  margin-left: 30px auto;
+}
+.smakresa-ruta .smakresa-text {
+  max-width: none;
+  width: 100%;
+  display: block;
+  padding: 0;
+  margin: 10px 0 0;
+  text-align: left;
+  font-size: 18px;
+}
+.artiklar h2 {
+  text-align: center;
+  margin-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  color: #234b35;
+}
+.artiklar .smakresa-text {
+  margin-top: 0;
+  border-radius: 0 0 12px 12px;
+}
+
+.artiklar a {
+  display: block;
+  color: #795548;
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+.artiklar a:hover {
+  text-decoration: underline;
+}
+
+nav .logo {
+  margin: 0;
+  margin-right: auto;
+  color: #234b35;
+  font-size: 28px;
+  font-weight: blod;
+  position: absolute;
+  left: 85px;
+}
+nav .logo img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin: 0;
+  display: block;
+}
+.nav-ikoner {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-ikoner button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 25px;
+  cursor: pointer;
+}
+.ikon-linje {
+  width: 1px;
+  height: 24px;
+  background-color: #b8aa96;
+}
+.varukorg {
+  position: relative;
+}
+
+.antal {
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  background-color: #b58b36;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  padding-top: 50px;
+}
+.hero-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #234b35;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-left: -50px;
+}
+.italian-flagga {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 34px;
+  height: 4px;
+  background: linear-gradient(to right #008c45 33% white 66% #cd212a 66%);
+}
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 450px;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f1e9;
+  background-image: url("image/matbild4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  width: 55%;
+  box-sizing: border-box;
+  padding: 50px 30px 50px 80px;
+}
+.hero-bild {
+  width: 45%;
+  height: 450px;
+  object-fit: cover;
+  margin: 0;
+  max-width: 45%;
+  max-height: 450px;
+  align-self: flex-start;
+}
+.hero-beskrivning {
+  font-size: 28px;
+  margin-top: -25px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+.hero-knapp {
+  display: inline-block;
+  background-color: #234b35;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial, sans-serif;
+}
+.kategorier {
+  background-color: white;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.kategorier h2 {
+  font-size: 42px;
+  color: #234b35;
+  margin-bottom: 20px;
+}
+/* Visar produktkategorierna i ett rutnät på startsidan. */
+.kategori-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  max-width: 7200px;
+  margin: 0 auto;
+}
+.kategori-kort {
+  background-color: #f9f6f0;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #234b35;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  min-height: 0;
+}
+.kategori-kort:hover {
+  transform: translateY(-5px);
+}
+.kategori-kort img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  background-color: white;
+}
+.kategori-kort h3 {
+  font-size: 17px;
+  margin: 10px 8px 5px;
+  color: #234b35;
+}
+.kategori-kort p {
+  font-size: 12px;
+  line-height: 1.3;
+  color: #6d5c55;
+  padding: 0 8px 10px;
+}
+@media (max-width: 900px) {
+  .kategori-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .kategori-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .kategorier {
+    padding: 40px 20px;
+  }
+
+  .kategorier h2 {
+    font-size: 32px;
+  }
+}
+
+.card-image-1 {
+  background-image: url(image/oljor.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-2 {
+  background-image: url(image/nötter.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-3 {
+  background-image: url(image/hungun.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-image-4 {
+  background-image: url(image/pasta.jpg);
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.artikel-rubrik {
+  text-align: center;
+  color: #234b35;
+  font-size: 32px;
+  position: static;
+  display: flow-root;
+  padding-top: 700px;
+}
+
+.artikel-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+  margin-top: 125px;
+}
+
+.artikel-kort {
+  display: block;
+
+  min-width: 0;
+
+  background: white;
+
+  border: 1px solid #eee;
+
+  border-radius: 8px;
+
+  overflow: hidden;
+}
+
+.artikel-kort img {
+  width: 100%;
+
+  height: 150px;
+
+  object-fit: cover;
+
+  display: block;
+}
+/* Design för nyhetsbrevet med grön bakgrund och prenumerationsknapp */
+.nyhetsbrev {
+  background-color: #e9ede4;
+  margin: 30px auto;
+  max-width: 1100px;
+  display: block;
+  height: 160px;
+  width: 90%;
+
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.nyhetsbrev h2 {
+  color: #234b35;
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+.nyhetsbrev p {
+  margin: 0 0 15px;
+}
+.nyhetsbrev-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nyhetsbrev-form input {
+  width: 350px;
+  padding: 12px 18px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+.nyhetsbrev-form button {
+  background-color: #234b35;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.sidfot {
+  padding: 25px 5%;
+  background-color: transparent;
+  text-align: left;
+  clear: both;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.sidfot- img {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+}
+.sidfot p {
+  font-size: 11px;
+  margin-top: 5px;
+}
+footer.sidfot img {
+  width: 70px;
+}
+.sidfot-social {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  text-align: center;
+}
+.kategorier h2 {
+  position: relative;
+  top: 40px;
+  font-size: 32px;
+}
+.kategori-grid {
+  margin-top: 75px;
+}
+.smakresa-ruta h2,
+.smakresa-ruta h2,
+.artiklar h2 .artiklar-rubrik {
+  font-family: Georgia, serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #234b35;
+  text-align: center;
+}
+.smakresa-ruta h2 {
+  font-size: 26px;
+}
+.artiklar-rubrik {
+  font-size: 26px;
+  position: relative;
+  top: 110px;
+}
+.artikel-kort h3,
+.artikel-kort span {
+  color: #234b35;
+}
+.sidfot-nyhetsbrev {
+  text-align: right;
+  position: absolute;
+  right: 5%;
+  top: 75px;
+}
+
+.sidfot-nyhetsbrev a {
+  color: #234b35;
+
+  font-family: Georgia, serif;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+header {
+  background-color: #f5efe4;
+
+  padding: 25px;
+
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #294b38;
+
+  text-align: center;
+}
+
+.kategorier {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+
+  margin: 30px 0;
+}
+
+.produkter {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+  max-width: 1000px;
+
+  margin: 30px auto;
+
+  padding: 20px;
+}
+
+.produkt {
+  border: 1px solid #ddd;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  background-color: white;
+}
+.oljor-produkter {
+  background: white;
+  padding: 40px 20px;
+}
+.oljor-produkter h2 {
+  text-align: center;
+  color: #294b38;
+}
+.oljor-produkter .produkt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+.oljor-produkter .produktkort {
+  background: white;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.oljor-produkter .bildplats {
+  background: #f5f5f5;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  margin-bottom: 15px;
+}
+.oljor-produkter .pris {
+  font-weight: bold;
+  font-size: 20px;
+}
+.oljor-produkter button {
+  background: #294b38;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 18px;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .oljor-produkter .produkt-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Våra produkter – BUONITO</title>
+    <style>
+      body {
+        background-color: white;
+
+        font-family: Arial, sans-serif;
+
+        margin: 0;
+
+        color: #294b38;
+      }
+      .oljor-produkter {
+        padding: 40px 20px;
+
+        background: white;
+      }
+
+      .oljor-produkter h2 {
+        text-align: center;
+      }
+
+      .produkt-grid {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 20px;
+
+        max-width: 850px;
+
+        margin: 30px auto;
+      }
+
+      .produktkort {
+        background: white;
+
+        border: 1px solid #ddd;
+
+        border-radius: 12px;
+
+        padding: 20px;
+
+        text-align: center;
+      }
+
+      .bildplats {
+        background: #f5f5f5;
+
+        height: 220px;
+
+        display: flex;
+
+        align-items: center;
+
+        justify-content: center;
+      }
+
+      .produktkort button {
+        background: #294b38;
+
+        color: white;
+
+        border: none;
+
+        padding: 12px 18px;
+
+        border-radius: 8px;
+
+        cursor: pointer;
+
+        margin-top: 15px;
+      }
+
+      @media (max-width: 700px) {
+        .produkt-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="oljor-produkter">
+      <h2>Oljor & tryffel</h2>
+      <div class="produkt-grid">
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 1</div>
+          <h3>Produktnamn 1</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 2</div>
+          <h3>Produktnamn 2</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 3</div>
+          <h3>Produktnamn 3</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 4</div>
+          <h3>Produktnamn 4</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 5</div>
+          <h3>Produktnamn 5</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+        <article class="produktkort">
+          <div class="bildplats">Produktbild 6</div>
+          <h3>Produktnamn 6</h3>
+          <p>Beskrivning av produkten</p>
+          <p class="pris">Pris: -- kr</p>
+          <button type="button">Lägg i varukorg</button>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
